@@ -21,7 +21,8 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path('store/', include('honeypot_project.loginpage.urls'))
-    path('', include('honeypot_project.loginpage.urls'))
-
+    #path('', include('honeypot_project.loginpage.urls')),
+    path('shop/', include('honeypot_project.shop.urls')),
+    path('home/', include('honeypot_project.home.urls'))
     #since loginpage application is located within honeypot_project, and not same location as admin.py, we must include full path
 ]
