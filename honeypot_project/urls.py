@@ -16,6 +16,8 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path,include
+from honeypot_project import home
+
 #from honeypot_project.loginpage import urls
 
 urlpatterns = [
@@ -23,6 +25,9 @@ urlpatterns = [
     #path('store/', include('honeypot_project.loginpage.urls'))
     #path('', include('honeypot_project.loginpage.urls')),
     path('shop/', include('honeypot_project.shop.urls')),
-    path('home/', include('honeypot_project.home.urls'))
+    path('home/', include('honeypot_project.home.urls')),
+    path('aboutus/',home.views.aboutus,name='aboutus'),
+
+
     #since loginpage application is located within honeypot_project, and not same location as admin.py, we must include full path
 ]

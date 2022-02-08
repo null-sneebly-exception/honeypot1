@@ -9,3 +9,9 @@ def home(request):
     "name":"ash"
     }
     return render(request,"home.html",context)
+
+def aboutus(request):
+    context ={
+    "name":"ash"
+    }
+    return HttpResponse('We are a store!')

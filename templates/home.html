@@ -1,4 +1,5 @@
 <html>
+{% load static %}
    <head>
       <title>
          {% block title %}Base title{% endblock %}
@@ -6,7 +7,7 @@
         {% comment %} This Bootsrap css is added to all pages {% endcomment %}
         <ul>
           <li><a href="{% url 'shop'%}"> Redirect to SHOP</a></li>
-          <li><a href="{% url 'shop'%}"> Redirect to SHOP</a></li>
+          <li><a href="{% url 'aboutus'%}"> Redirect to aboutus</a></li>
           <li><a href="{% url 'shop'%}"> Redirect to SHOP</a></li>
 
         </ul>
@@ -15,7 +16,7 @@
    <body>
     <p>
     Welcome to our lovely home page
-    
+    <img src="{% static 'smiley-face.png' %}" height="50px" width="50px">
     </p>
 
    </body>
