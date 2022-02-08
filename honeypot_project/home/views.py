@@ -5,4 +5,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse("Welcome to our lovely home page")
+    context ={
+    "name":"ash"
+    }
+    return render(request,"home.html",context)
