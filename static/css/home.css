@@ -1,0 +1,12 @@
+ul{
+  display: flex;
+  justify-content: center;
+
+}
+li{
+  display: inline ;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid;
+  color: cyan;
+}
