@@ -24,6 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #path('store/', include('honeypot_project.loginpage.urls'))
     #path('', include('honeypot_project.loginpage.urls')),
+    path('', include('honeypot_project.home.urls')),
     path('shop/', include('honeypot_project.shop.urls')),
     path('home/', include('honeypot_project.home.urls')),
     path('aboutus/',home.views.aboutus,name='aboutus'),
