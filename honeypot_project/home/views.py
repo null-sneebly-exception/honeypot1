@@ -6,12 +6,16 @@ from django.http import HttpResponse
 
 def home(request):
     context ={
-    "name":"ash"
+    "bodytext":"this is our lovely home page"
     }
     return render(request,"home.html",context)
 
 def aboutus(request):
+    request.session['test'] = 'cart'
+    foo = request.session['test']
     context ={
-    "name":"ash"
+    "name":"ash",
+    "bodytext":"this is our aboutus page",
+    "session" : foo
     }
-    return HttpResponse('We are a store!')
+    return render(request,"home.html",context)

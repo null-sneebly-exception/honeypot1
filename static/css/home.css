@@ -1,17 +1,20 @@
-ul{
-  display: flex;
-  justify-content: center;
 
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-li{
-  display: inline ;
-  margin-left: 20px;
-  margin-right: 20px;
-  border: solid;
-  color: red;
-  height: 50px;
+
+.navli {
+  float: left;
 }
-body{
-  background-color: grey;
-  font-size: 15pt;
+
+.navlink {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
