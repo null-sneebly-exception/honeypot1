@@ -1,5 +1,5 @@
 from multiprocessing import context
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.template import loader
 
 
@@ -11,10 +11,9 @@ from .models import *
 shopItems = []
 
 
-
 def shop(request):
     product_list = Product.objects.all()
-    template = loader.get_template('shop.html')
+    template = loader.get_template('index.html')
     context = {'product_list': product_list,}
     return HttpResponse(template.render(context, request))
 
@@ -29,7 +28,12 @@ def productpage(request,product_name):
 
 def shoppingCartPage(request):
     template = loader.get_template('showsession.html')
-    cart=request.session['shopping_cart']
+    try:
+        cart=request.session['shopping_cart']
+    except KeyError:
+        request.session['shopping_cart']={}
+        cart=request.session['shopping_cart']   
+
     context={'shopping_cart':cart}
     return HttpResponse(template.render(context,request))
 
@@ -45,7 +49,7 @@ def addtocart(request,product_name):
     except KeyError:
         request.session['shopping_cart'][product_name] = 0
     request.session['shopping_cart'][product_name]= int(request.session['shopping_cart'][product_name])+1
-    return HttpResponse("WOOOOOOO")
+    return redirect("/shop")
 
 
     
