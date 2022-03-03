@@ -32,14 +32,21 @@
 					<a class="nav-link" href="/aboutus">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/shop/shoppingcart">Cart</a>
+					<a class="nav-link" href="shoppingcart">Cart</a>
 				</li>
 			</ul>		
 		</div>
 	</nav>
-   <div>ABOUTUS</div>
-    
-   
-
-   </body>
+        <div>
+            <form action="" method="post" id="product_info.name">
+                <hidden input type="text" id="url" name="url" value="http://127.0.0.1/shop/{{product_info.name}}">
+                <input type="text" id="name" name="name"><br><br>
+                <input type="text" id="comment" name="comment"><br><br>
+                <button type="submit" class="btn btn-secondary" >Post Comment</button>
+            </form>
+        </div>
+        
+        
+      
+    </body>
 </html>

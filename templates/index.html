@@ -22,21 +22,19 @@
 					<a class="nav-link" href="/home">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="">Shop</a>
+					<form action="http://127.0.0.1:8000/shop/" method="POST">
+					{% csrf_token %}
+					<input hidden name="url" id="url" value="http://127.0.0.1:8000/shop/">
+					<button style=" --bs-bg-opacity: 1;background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;border:none;" class="nav-link">Shop</button>
+					</form>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/aboutus">About</a>
 				</li>
-			</ul>
-			<!-- login area -->
-			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
 					<a class="nav-link" href="shoppingcart">Cart</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Login</a>
-				</li>
-			</ul>
+			</ul>		
 		</div>
 	</nav>
 	
@@ -48,7 +46,7 @@
 			</div>
 		   {% endfor %}
 	</div>
-	<div>/
+	<div>
 
 
 		<!-- modal -->
@@ -69,9 +67,12 @@
 				</div>
 				<div class="modal-footer">
 					<!-- ADD TO CART, ADD BACKEND CODE -->
-					<form action="{{product.name}}/addtocart" method="get" id="{{product.name}}-form">
+					<form action="{{product.name}}/addtocart" method="get" id="{{product.name}}-cart">
 					</form>
-					<button type="submit" class="btn btn-secondary" form="{{product.name}}-form">Add to Cart</button>
+					<button type="submit" class="btn btn-secondary" form="{{product.name}}-cart">Add to Cart</button>
+					<form action="{{product.name}}" method="get" id="{{product.name}}-page">
+					</form>
+					<button type="submit" class="btn btn-secondary" form="{{product.name}}-page">Go to Product Page</button>
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
