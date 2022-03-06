@@ -37,14 +37,28 @@
 			</ul>		
 		</div>
 	</nav>
+	<div>           
+		<img src="{%static product_info.image%}" height="100px" width="100px">
+	</div>
         <div>
-            <form action="" method="post" id="product_info.name">
-                <hidden input type="text" id="url" name="url" value="http://127.0.0.1/shop/{{product_info.name}}">
-                <input type="text" id="name" name="name"><br><br>
+            <form action="http://127.0.0.1:8000/shop/{{product_info.name}}/" method="post" id="{{product_info.name}}">
+				{% csrf_token %}
+                <input hidden type="text" id="product" name="product" value="{{product_info.name}}">
+                <label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="comment">Comment:</label>
                 <input type="text" id="comment" name="comment"><br><br>
                 <button type="submit" class="btn btn-secondary" >Post Comment</button>
             </form>
+		
         </div>
+		
+		{% for comment in comment_list %}
+        <li>
+			{{comment.poster|safe}}
+			{{comment.comment|safe}}
+        </li>
+    {% endfor %}
         
         
       

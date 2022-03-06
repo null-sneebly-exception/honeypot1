@@ -3,6 +3,8 @@ from urllib.request import HTTPRedirectHandler
 from django.shortcuts import render,redirect
 from django.template import loader
 from django.http import HttpResponseRedirect
+import datetime
+
 
 
 # Create your views here.
@@ -27,9 +29,19 @@ def shop(request):
   
 def productpage(request,product_name):
     template = loader.get_template('productpage.html')
+    if request.method=="POST":
+        data=request.POST
+        comment=data.get("comment")
+        name = data.get("name")
+        product = data.get("product")
+        x =Comment(product=product,poster=name,date=datetime.datetime.now(),comment=comment)
+        x.save()
+    
+    comment_list = Comment.objects.filter(product=product_name)
+
     try:
         product = Product.objects.get(name=product_name)
-        context= {"product_info":product}
+        context= {"product_info":product,'comment_list':comment_list,}
     except Product.DoesNotExist:
         raise Http404("Product does not exist")
     return HttpResponse(template.render(context,request))

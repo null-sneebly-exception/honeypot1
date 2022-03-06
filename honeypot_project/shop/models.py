@@ -9,7 +9,7 @@ class Product(models.Model):
 
 
 class Comment(models.Model):
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    product = models.CharField(max_length=30)
     poster = models.CharField(max_length=30)
     date = models.DateField(auto_now=True)
     comment = models.CharField(max_length=250)
