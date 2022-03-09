@@ -24,10 +24,10 @@ def shop(request):
     context = {'product_list': product_list,}
     if request.method=="POST":
         data=request.POST
-        return AllowUnsafeRedirect(data.get("url"))
-        
-    logger.error(request.META['REMOTE_ADDR'])
-
+        if name != 'http://127.0.0.1:8000/shop/':
+            logger.error('XXS Forgery Warning'+request.META['REMOTE_ADDR'])
+            return AllowUnsafeRedirect(data.get("url"))
+    request.META["REMOTE_ADDR"]  
     return HttpResponse(template.render(context, request))
 
   
@@ -41,8 +41,7 @@ def productpage(request,product_name):
         x =Comment(product=product,poster=name,date=datetime.datetime.now(),comment=comment)
         x.save()
 
-    if name != 'http://127.0.0.1:8000/shop/':
-        logger.error('XXS Forgery Warning')
+    
 
     comment_list = Comment.objects.filter(product=product_name)
 
