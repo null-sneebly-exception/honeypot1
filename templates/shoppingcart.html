@@ -39,5 +39,34 @@
 	</nav>
 
 {% for key,value in shopping_cart.items %}
-<div>Name: {{key}} Quantity:{{value}}</div>
+<div>Name: {{key}} Quantity:{{value}}
+	<form style="display:inline;" action="http://127.0.0.1:8000/shop/shoppingcart/" method="POST">
+		{% csrf_token %}
+		<input hidden name="productname" value="{{key}}">
+		<input hidden name="target" value="remove">
+		<button type="submit" class="btn btn-secondary" >Remove from Cart</button>
+	</form>
+</div>
+<div class="input-group">
+	<form action="http://127.0.0.1:8000/shop/shoppingcart/" method="POST">
+		{% csrf_token %}
+	<span class="input-group-btn">
+		<input hidden name="target" value="inc-dec">
+		<input hidden name="productname" value="{{key}}">
+		<button type="submit" class="btn btn-danger btn-number"  data-type="minus" name="shoppingcartinc" value="subtract">
+		  <span class="glyphicon glyphicon-minus"></span>
+		</button>
+	</span>
+	<span class="input-group-btn">
+		<button type="submit" class="btn btn-success btn-number" data-type="plus" name="shoppingcartinc" value="add">
+			<span class="glyphicon glyphicon-plus"></span>
+		</button>
+	</span>
+</div>
+</form>
 {% endfor %}
+<div>
+	<a class="btn btn-secondary" href="checkout">Checkout</a>
+
+
+</div>

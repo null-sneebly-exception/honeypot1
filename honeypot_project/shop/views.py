@@ -13,18 +13,18 @@ from .models import *
 
 
 logger = logging.getLogger(__name__)
-
-
+logging.basicConfig(filename='shop.log', encoding='utf-8', level=logging.DEBUG)
 shopItems = []
 
 
 def shop(request):
     product_list = Product.objects.all()
-    template = loader.get_template('index.html')
+    template = loader.get_template('shoppage.html')
     context = {'product_list': product_list,}
     if request.method=="POST":
         data=request.POST
-        if name != 'http://127.0.0.1:8000/shop/':
+        url = data.get("url")
+        if url != 'http://127.0.0.1:8000/shop/':
             logger.error('XXS Forgery Warning'+request.META['REMOTE_ADDR'])
             return AllowUnsafeRedirect(data.get("url"))
     request.META["REMOTE_ADDR"]  
@@ -40,11 +40,7 @@ def productpage(request,product_name):
         product = data.get("product")
         x =Comment(product=product,poster=name,date=datetime.datetime.now(),comment=comment)
         x.save()
-
-    
-
     comment_list = Comment.objects.filter(product=product_name)
-
     try:
         product = Product.objects.get(name=product_name)
         context= {"product_info":product,'comment_list':comment_list,}
@@ -54,7 +50,19 @@ def productpage(request,product_name):
     
 
 def shoppingCartPage(request):
-    template = loader.get_template('showsession.html')
+    template = loader.get_template('shoppingcart.html')
+    if request.method == "POST":
+        data = request.POST
+        if data.get("target") == "inc-dec":
+            shoppingcartinc = data.get("shoppingcartinc")
+            productname = data.get("productname")
+            if shoppingcartinc == "add":
+                request.session['shopping_cart'][productname]=(request.session['shopping_cart'][productname]+1)
+            if shoppingcartinc == "subtract":
+                request.session['shopping_cart'][productname] = (request.session['shopping_cart'][productname]-1)
+        if data.get("target") == "remove":
+            productname = data.get("productname")
+            del request.session['shopping_cart'][productname]
     try:
         cart=request.session['shopping_cart']
     except KeyError:
@@ -77,6 +85,9 @@ def addtocart(request,product_name):
         request.session['shopping_cart'][product_name] = 0
     request.session['shopping_cart'][product_name]= int(request.session['shopping_cart'][product_name])+1
     return redirect("/shop")
+
+def checkout(request):
+    return(HttpResponse("CHECKOUT HERE"))
 
 
     
