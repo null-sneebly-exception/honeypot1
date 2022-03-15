@@ -40,7 +40,7 @@
 
 {% for key,value in shopping_cart.items %}
 <div>Name: {{key}} Quantity:{{value}}
-	<form style="display:inline;" action="http://127.0.0.1:8000/shop/shoppingcart/" method="POST">
+	<form style="display:inline;" action="/shop/shoppingcart/" method="POST">
 		{% csrf_token %}
 		<input hidden name="productname" value="{{key}}">
 		<input hidden name="target" value="remove">
