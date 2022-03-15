@@ -27,7 +27,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','52.201.246.164']
+ALLOWED_HOSTS = ['localhost','52.201.246.164','127.0.0.1']
 
 SESSION_SAVE_EVERY_REQUEST = True
 

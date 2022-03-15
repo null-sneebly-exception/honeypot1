@@ -71,3 +71,14 @@ WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /shop/
 WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /shop/
 WARNING:django.request:Not Found: /favicon.ico
 WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING:django.request:Bad Request: /shop/
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING:django.request:Bad Request: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /shop/shoppingcart/
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /shop/shoppingcart/
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /shop/
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /shop/nft1/
+WARNING:django.request:Not Found: /favicon.ico

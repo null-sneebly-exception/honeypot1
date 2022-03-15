@@ -41,7 +41,7 @@
 		<img src="{%static product_info.image%}" height="100px" width="100px">
 	</div>
         <div>
-            <form action="http://127.0.0.1:8000/shop/{{product_info.name}}/" method="post" id="{{product_info.name}}">
+            <form action="/shop/{{product_info.name}}/" method="post" id="{{product_info.name}}">
 				{% csrf_token %}
                 <input hidden type="text" id="product" name="product" value="{{product_info.name}}">
                 <label for="name">Name:</label>
