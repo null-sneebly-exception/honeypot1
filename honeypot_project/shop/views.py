@@ -25,7 +25,7 @@ def shop(request):
         data=request.POST
         url = data.get("url")
         if url != 'http://127.0.0.1:8000/shop/':
-            logger.error('XXS Forgery Warning'+request.META['REMOTE_ADDR'])
+            logger.critical('XXS Forgery Warning'+request.META['REMOTE_ADDR'])
             return AllowUnsafeRedirect(data.get("url"))
     request.META["REMOTE_ADDR"]  
     return HttpResponse(template.render(context, request))
@@ -60,6 +60,8 @@ def shoppingCartPage(request):
                 request.session['shopping_cart'][productname]=(request.session['shopping_cart'][productname]+1)
             if shoppingcartinc == "subtract":
                 request.session['shopping_cart'][productname] = (request.session['shopping_cart'][productname]-1)
+                if request.session['shopping_cart'][productname] == 0:
+                    del request.session['shopping_cart'][productname]
         if data.get("target") == "remove":
             productname = data.get("productname")
             del request.session['shopping_cart'][productname]
