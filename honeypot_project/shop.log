@@ -1,0 +1,8 @@
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '52.201.246.164'. You may need to add '52.201.246.164' to ALLOWED_HOSTS.
+WARNING:django.request:Bad Request: /home/
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '52.201.246.164'. You may need to add '52.201.246.164' to ALLOWED_HOSTS.
+WARNING:django.request:Bad Request: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+CRITICAL:honeypot_project.shop.views:XXS Forgery Warning75.115.136.245
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
