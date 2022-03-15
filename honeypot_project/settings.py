@@ -52,8 +52,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'admin_ip_restrictor.middleware.AdminIPRestrictorMiddleware'
+    
 ]
-
+RESTRICT_ADMIN=True
+ALLOWED_ADMIN_IPS=['127.0.0.1', '::1']
+ALLOWED_ADMIN_IP_RANGES=['127.0.0.0/24', '::/1']
+RESTRICTED_APP_NAMES=['admin']
+TRUST_PRIVATE_IP=True
 ROOT_URLCONF = 'honeypot_project.urls'
 import os
 TEMPLATES = [
