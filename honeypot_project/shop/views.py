@@ -5,6 +5,7 @@ from django.template import loader
 from django.http import HttpResponseRedirect
 import datetime
 import logging
+import requests
 
 
 # Create your views here.
@@ -24,9 +25,16 @@ def shop(request):
     if request.method=="POST":
         data=request.POST
         url = data.get("url")
+        req = requests.get(url = url)
+        #crafts new HTTP response object out of the content of req from python requests library, and return to browser.
+        #if user changes url in html form , they can make server render malicious site, or a resource behind the firewall
+        django_formatted_response = HttpResponse(
+        content=req.content)
         if url != 'http://127.0.0.1:8000/shop/':
-            logger.critical('XXS Forgery Warning'+request.META['REMOTE_ADDR'])
-            return AllowUnsafeRedirect(data.get("url"))
+            logger.critical('XXS Forgery Warning!!!!! IP OF REQUESTER: '+request.META['REMOTE_ADDR'])
+            logger.critical('Bad content returned ='+ req.text)
+
+            return django_formatted_response
     request.META["REMOTE_ADDR"]  
     return HttpResponse(template.render(context, request))
 
