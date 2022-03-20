@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>Bullish Crypto - Home</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	{%load static%}
+	<link rel="stylesheet" type="text/css" href="{%static 'css/bootstrap.css'%}">
+	<link rel="stylesheet" type="text/css" href="{%static 'css/style.css'%}">
 	<!-- icons -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">	
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -20,12 +21,12 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item active">
-					<a class="nav-link" href="index.html">
+					<a class="nav-link" href="/shop">
 						<i class="bi bi-house-fill"></i> Home
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="about.html">
+					<a class="nav-link" href="/aboutus">
 						<i class="bi bi-patch-question-fill"></i> About
 					</a>
 				</li>
@@ -33,7 +34,7 @@
 			<!-- login area -->
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="cart.html">
+					<a class="nav-link" href="/shop/shoppingcart">
 						<i class="bi bi-cart-fill"></i> Cart
 					</a>
 				</li>
@@ -56,7 +57,7 @@
 	</div>
 
 	<!-- images -->
-	<div class="container-fluid">
+	<!--<div class="container-fluid">
 		<div class="row top-buffer">
 			<div class="col-md-3 text-center top-buffer">
 				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
@@ -72,84 +73,58 @@
 			</div>
 		</div>
 	</div>
+-->
 
-
-	<div class="container-fluid">
-		<div class="row top-buffer">
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-		</div>
+{% for product in product_list%}
+{% if forloop.counter == 1  %}
+<div class="container-fluid">
+	<div class="row top-buffer">
+{%endif%}
+<div class="col-md-3 text-center top-buffer">
+	<img  class="img-fluid" src="/{{product.image}}" data-toggle="modal" data-target="#{{product.name}}">
+</div>
+{% if forloop.counter|divisibleby:4%}
 	</div>
+</div>
+<div class="container-fluid">
+	<div class="row top-buffer">
+{%endif%}
+{% endfor %}
 
-	<div class="container-fluid">
-		<div class="row top-buffer">
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-		</div>
-	</div>
-
-	<div class="container-fluid">
-		<div class="row top-buffer">
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-			<div class="col-md-3 text-center top-buffer">
-				<img  class="img-fluid" src="images/placeholder-image.png" alt="placeholder" data-toggle="modal" data-target="#placeholderModal">
-			</div>
-		</div>
-	</div>
 
 	<!-- modal -->
-	<div class="modal fade" id="placeholderModal" tabindex="-1" role="dialog" aria-labelledby="placeholderModal" aria-hidden="true">
+	{% for product in product_list %}
+	<div class="modal fade" id="{{product.name}}" tabindex="-1" role="dialog" aria-labelledby="placeholderModal" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="placeholderModal">NFT #001</h5>
+					<h5 class="modal-title" id="placeholderModal">{{product.name}}</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body">
-					<img class="img-fluid" src="images/placeholder-image.png" alt="Placeholder Image">
-					<p>100 ETH</p>
+					<img class="img-fluid" src="/{{product.image}}" alt="Placeholder Image">
+					<p>{{product.description}}</p>
+					<br>
+					<p>{{product.price}}</p>
 				</div>
 				<div class="modal-footer">
 					<!-- ADD TO CART, ADD BACKEND CODE -->
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">View Product</button>
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Add to Cart</button>
+					<form action="{{product.name}}/addtocart" method="get" id="{{product.name}}-cart">
+					</form>
+					<button type="submit" class="btn btn-secondary" form="{{product.name}}-cart">Add to Cart</button>
+					<form action="{{product.name}}" method="get" id="{{product.name}}-page">
+					</form>
+					<button type="submit" class="btn btn-secondary" form="{{product.name}}-page">Go to Product Page</button>
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	
+	{% endfor%}
+
 </body>
 
 <!-- footer -->

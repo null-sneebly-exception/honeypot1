@@ -82,3 +82,1097 @@ WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /shop/shoppingcar
 WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /shop/
 WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /shop/nft1/
 WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\home\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /aboutus/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 21, in aboutus
+    return render(request,"aboutus.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: aboutus.html
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\home\views.py changed, reloading.
+WARNING:django.request:Not Found: /aboutus/style.css
+WARNING:django.request:Not Found: /aboutus/bootstrap.css
+ERROR:django.request:Internal Server Error: /aboutus/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 21, in aboutus
+    return render(request,"about.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static'. Did you forget to register or load this tag?
+WARNING:django.request:Not Found: /aboutus/about.html
+WARNING:django.request:Not Found: /aboutus/index.html
+WARNING:django.request:Not Found: /aboutus/index.html
+WARNING:django.request:Not Found: /aboutus/index.html
+WARNING:django.request:Not Found: /aboutus/index.html
+WARNING:django.request:Not Found: /aboutus/index.html
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /aboutus/index.html
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py changed, reloading.
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/index.html/
+WARNING:django.request:Not Found: /shop/about.html/
+WARNING:django.request:Not Found: /about/
+WARNING:django.request:Not Found: /aboutus/cart.html
+ERROR:django.request:Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 22, in shop
+    template = loader.get_template('index.html')
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 449, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' = 5' from 'val = 5'
+ERROR:django.request:Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 22, in shop
+    template = loader.get_template('index.html')
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 1488, in do_with
+    nodelist = parser.parse(('endwith',))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 97: 'endfor', expected 'endwith'. Did you forget to register or load this tag?
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/about.html/
+WARNING:django.request:Not Found: /shop/about.html/
+WARNING:django.request:Not Found: /shop/index.html/
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/about.html/
+WARNING:django.request:Not Found: /shop/index.html/
+WARNING:django.request:Not Found: /shop/cart.html/
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 11, in home
+    return render(request,"home.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/cart.html/
+WARNING:django.request:Not Found: /shop/about.html/
+WARNING:django.request:Not Found: /shop/about.html/
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/cart.html/
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+ERROR:django.request:Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 22, in shop
+    template = loader.get_template('index.html')
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 816, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(4)' from 'range(4)'
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+ERROR:django.request:Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 22, in shop
+    template = loader.get_template('index.html')
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 968, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 90: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+ERROR:django.request:Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'forloop.counter==0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 22, in shop
+    template = loader.get_template('index.html')
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 967, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 900, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 903, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==0' from 'forloop.counter==0'
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+DEBUG:PIL.Image:Importing BlpImagePlugin
+DEBUG:PIL.Image:Importing BmpImagePlugin
+DEBUG:PIL.Image:Importing BufrStubImagePlugin
+DEBUG:PIL.Image:Importing CurImagePlugin
+DEBUG:PIL.Image:Importing DcxImagePlugin
+DEBUG:PIL.Image:Importing DdsImagePlugin
+DEBUG:PIL.Image:Importing EpsImagePlugin
+DEBUG:PIL.Image:Importing FitsStubImagePlugin
+DEBUG:PIL.Image:Importing FliImagePlugin
+DEBUG:PIL.Image:Importing FpxImagePlugin
+DEBUG:PIL.Image:Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG:PIL.Image:Importing FtexImagePlugin
+DEBUG:PIL.Image:Importing GbrImagePlugin
+DEBUG:PIL.Image:Importing GifImagePlugin
+DEBUG:PIL.Image:Importing GribStubImagePlugin
+DEBUG:PIL.Image:Importing Hdf5StubImagePlugin
+DEBUG:PIL.Image:Importing IcnsImagePlugin
+DEBUG:PIL.Image:Importing IcoImagePlugin
+DEBUG:PIL.Image:Importing ImImagePlugin
+DEBUG:PIL.Image:Importing ImtImagePlugin
+DEBUG:PIL.Image:Importing IptcImagePlugin
+DEBUG:PIL.Image:Importing JpegImagePlugin
+DEBUG:PIL.Image:Importing Jpeg2KImagePlugin
+DEBUG:PIL.Image:Importing McIdasImagePlugin
+DEBUG:PIL.Image:Importing MicImagePlugin
+DEBUG:PIL.Image:Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG:PIL.Image:Importing MpegImagePlugin
+DEBUG:PIL.Image:Importing MpoImagePlugin
+DEBUG:PIL.Image:Importing MspImagePlugin
+DEBUG:PIL.Image:Importing PalmImagePlugin
+DEBUG:PIL.Image:Importing PcdImagePlugin
+DEBUG:PIL.Image:Importing PcxImagePlugin
+DEBUG:PIL.Image:Importing PdfImagePlugin
+DEBUG:PIL.Image:Importing PixarImagePlugin
+DEBUG:PIL.Image:Importing PngImagePlugin
+DEBUG:PIL.Image:Importing PpmImagePlugin
+DEBUG:PIL.Image:Importing PsdImagePlugin
+DEBUG:PIL.Image:Importing SgiImagePlugin
+DEBUG:PIL.Image:Importing SpiderImagePlugin
+DEBUG:PIL.Image:Importing SunImagePlugin
+DEBUG:PIL.Image:Importing TgaImagePlugin
+DEBUG:PIL.Image:Importing TiffImagePlugin
+DEBUG:PIL.Image:Importing WebPImagePlugin
+DEBUG:PIL.Image:Importing WmfImagePlugin
+DEBUG:PIL.Image:Importing XbmImagePlugin
+DEBUG:PIL.Image:Importing XpmImagePlugin
+DEBUG:PIL.Image:Importing XVThumbImagePlugin
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'product.image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 22, in shop
+    template = loader.get_template('index.html')
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 84: 'product.image', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+ERROR:django.request:Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'product.image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 22, in shop
+    template = loader.get_template('index.html')
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 84: 'product.image', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/images/smiley-face.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/elephant.png
+WARNING:django.request:Not Found: /shop/static/images/gnom1_4kWHjFQ.jpg
+WARNING:django.request:Not Found: /shop/images/penguin.png
+WARNING:django.request:Not Found: /shop/images/smiley-face.png
+WARNING:django.request:Not Found: /shop/images/penguin.png
+WARNING:django.request:Not Found: /shop/images/elephant.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/static/images/gnom1_4kWHjFQ.jpg
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 22, in shop
+    template = loader.get_template('index.html')
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 967, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 190, in parse
+    retval = self.expression()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 204, in expression
+    left = t.led(left, self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 53, in led
+    self.second = parser.expression(bp)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 200, in expression
+    left = t.nud(self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 144, in nud
+    raise parser.error_class("Unexpected end of expression in if tag.")
+django.template.exceptions.TemplateSyntaxError: Unexpected end of expression in if tag.
+ERROR:django.request:Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 22, in shop
+    template = loader.get_template('index.html')
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 967, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 190, in parse
+    retval = self.expression()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 204, in expression
+    left = t.led(left, self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 53, in led
+    self.second = parser.expression(bp)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 200, in expression
+    left = t.nud(self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\smartif.py", line 144, in nud
+    raise parser.error_class("Unexpected end of expression in if tag.")
+django.template.exceptions.TemplateSyntaxError: Unexpected end of expression in if tag.
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/penguin.png
+WARNING:django.request:Not Found: /shop/images/smiley-face.png
+WARNING:django.request:Not Found: /shop/static/images/gnom1_4kWHjFQ.jpg
+WARNING:django.request:Not Found: /shop/images/elephant.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/smiley-face.png
+WARNING:django.request:Not Found: /shop/images/penguin.png
+WARNING:django.request:Not Found: /shop/images/elephant.png
+WARNING:django.request:Not Found: /shop/static/images/gnom1_4kWHjFQ.jpg
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /images/elephant.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/static/images/gnom1.jpg
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\models.py changed, reloading.
+WARNING:django.request:Not Found: /shop/static/images/gnom1.jpg
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+DEBUG:PIL.Image:Importing BlpImagePlugin
+DEBUG:PIL.Image:Importing BmpImagePlugin
+DEBUG:PIL.Image:Importing BufrStubImagePlugin
+DEBUG:PIL.Image:Importing CurImagePlugin
+DEBUG:PIL.Image:Importing DcxImagePlugin
+DEBUG:PIL.Image:Importing DdsImagePlugin
+DEBUG:PIL.Image:Importing EpsImagePlugin
+DEBUG:PIL.Image:Importing FitsStubImagePlugin
+DEBUG:PIL.Image:Importing FliImagePlugin
+DEBUG:PIL.Image:Importing FpxImagePlugin
+DEBUG:PIL.Image:Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG:PIL.Image:Importing FtexImagePlugin
+DEBUG:PIL.Image:Importing GbrImagePlugin
+DEBUG:PIL.Image:Importing GifImagePlugin
+DEBUG:PIL.Image:Importing GribStubImagePlugin
+DEBUG:PIL.Image:Importing Hdf5StubImagePlugin
+DEBUG:PIL.Image:Importing IcnsImagePlugin
+DEBUG:PIL.Image:Importing IcoImagePlugin
+DEBUG:PIL.Image:Importing ImImagePlugin
+DEBUG:PIL.Image:Importing ImtImagePlugin
+DEBUG:PIL.Image:Importing IptcImagePlugin
+DEBUG:PIL.Image:Importing JpegImagePlugin
+DEBUG:PIL.Image:Importing Jpeg2KImagePlugin
+DEBUG:PIL.Image:Importing McIdasImagePlugin
+DEBUG:PIL.Image:Importing MicImagePlugin
+DEBUG:PIL.Image:Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG:PIL.Image:Importing MpegImagePlugin
+DEBUG:PIL.Image:Importing MpoImagePlugin
+DEBUG:PIL.Image:Importing MspImagePlugin
+DEBUG:PIL.Image:Importing PalmImagePlugin
+DEBUG:PIL.Image:Importing PcdImagePlugin
+DEBUG:PIL.Image:Importing PcxImagePlugin
+DEBUG:PIL.Image:Importing PdfImagePlugin
+DEBUG:PIL.Image:Importing PixarImagePlugin
+DEBUG:PIL.Image:Importing PngImagePlugin
+DEBUG:PIL.Image:Importing PpmImagePlugin
+DEBUG:PIL.Image:Importing PsdImagePlugin
+DEBUG:PIL.Image:Importing SgiImagePlugin
+DEBUG:PIL.Image:Importing SpiderImagePlugin
+DEBUG:PIL.Image:Importing SunImagePlugin
+DEBUG:PIL.Image:Importing TgaImagePlugin
+DEBUG:PIL.Image:Importing TiffImagePlugin
+DEBUG:PIL.Image:Importing WebPImagePlugin
+DEBUG:PIL.Image:Importing WmfImagePlugin
+DEBUG:PIL.Image:Importing XbmImagePlugin
+DEBUG:PIL.Image:Importing XpmImagePlugin
+DEBUG:PIL.Image:Importing XVThumbImagePlugin
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\models.py changed, reloading.
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 70 65466
+DEBUG:PIL.Image:Importing BlpImagePlugin
+DEBUG:PIL.Image:Importing BmpImagePlugin
+DEBUG:PIL.Image:Importing BufrStubImagePlugin
+DEBUG:PIL.Image:Importing CurImagePlugin
+DEBUG:PIL.Image:Importing DcxImagePlugin
+DEBUG:PIL.Image:Importing DdsImagePlugin
+DEBUG:PIL.Image:Importing EpsImagePlugin
+DEBUG:PIL.Image:Importing FitsStubImagePlugin
+DEBUG:PIL.Image:Importing FliImagePlugin
+DEBUG:PIL.Image:Importing FpxImagePlugin
+DEBUG:PIL.Image:Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG:PIL.Image:Importing FtexImagePlugin
+DEBUG:PIL.Image:Importing GbrImagePlugin
+DEBUG:PIL.Image:Importing GifImagePlugin
+DEBUG:PIL.Image:Importing GribStubImagePlugin
+DEBUG:PIL.Image:Importing Hdf5StubImagePlugin
+DEBUG:PIL.Image:Importing IcnsImagePlugin
+DEBUG:PIL.Image:Importing IcoImagePlugin
+DEBUG:PIL.Image:Importing ImImagePlugin
+DEBUG:PIL.Image:Importing ImtImagePlugin
+DEBUG:PIL.Image:Importing IptcImagePlugin
+DEBUG:PIL.Image:Importing JpegImagePlugin
+DEBUG:PIL.Image:Importing Jpeg2KImagePlugin
+DEBUG:PIL.Image:Importing McIdasImagePlugin
+DEBUG:PIL.Image:Importing MicImagePlugin
+DEBUG:PIL.Image:Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG:PIL.Image:Importing MpegImagePlugin
+DEBUG:PIL.Image:Importing MpoImagePlugin
+DEBUG:PIL.Image:Importing MspImagePlugin
+DEBUG:PIL.Image:Importing PalmImagePlugin
+DEBUG:PIL.Image:Importing PcdImagePlugin
+DEBUG:PIL.Image:Importing PcxImagePlugin
+DEBUG:PIL.Image:Importing PdfImagePlugin
+DEBUG:PIL.Image:Importing PixarImagePlugin
+DEBUG:PIL.Image:Importing PngImagePlugin
+DEBUG:PIL.Image:Importing PpmImagePlugin
+DEBUG:PIL.Image:Importing PsdImagePlugin
+DEBUG:PIL.Image:Importing SgiImagePlugin
+DEBUG:PIL.Image:Importing SpiderImagePlugin
+DEBUG:PIL.Image:Importing SunImagePlugin
+DEBUG:PIL.Image:Importing TgaImagePlugin
+DEBUG:PIL.Image:Importing TiffImagePlugin
+DEBUG:PIL.Image:Importing WebPImagePlugin
+DEBUG:PIL.Image:Importing WmfImagePlugin
+DEBUG:PIL.Image:Importing XbmImagePlugin
+DEBUG:PIL.Image:Importing XpmImagePlugin
+DEBUG:PIL.Image:Importing XVThumbImagePlugin
+WARNING:django.request:Not Found: /images/elephant.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/penguin.png
+WARNING:django.request:Not Found: /shop/images/smiley-face.png
+WARNING:django.request:Not Found: /shop/static/images/Screenshot_15.png
+WARNING:django.request:Not Found: /shop/images/elephant.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /images/smiley-face.png
+WARNING:django.request:Not Found: /images/penguin.png
+WARNING:django.request:Not Found: /images/elephant.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /images/smiley-face.png
+WARNING:django.request:Not Found: /images/penguin.png
+WARNING:django.request:Not Found: /images/elephant.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /images/penguin.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /images/elephant.png
+WARNING:django.request:Not Found: /images/smiley-face.png
+WARNING:django.request:Not Found: /images/smiley-face.png
+WARNING:django.request:Not Found: /images/penguin.png
+WARNING:django.request:Not Found: /images/elephant.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /images/smiley-face.png
+WARNING:django.request:Not Found: /images/penguin.png
+WARNING:django.request:Not Found: /images/elephant.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /images/smiley-face.png
+WARNING:django.request:Not Found: /images/penguin.png
+WARNING:django.request:Not Found: /images/elephant.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'iCCP' 41 2615
+DEBUG:PIL.PngImagePlugin:iCCP profile name b'sRGB IEC61966-2.1'
+DEBUG:PIL.PngImagePlugin:Compression method 0
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 2668 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 2689 8192
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/static/images/download.jpg
+WARNING:django.request:Not Found: /shop/static/images/smiley-face.png
+WARNING:django.request:Not Found: /shop/static/images/deer.jpg
+WARNING:django.request:Not Found: /shop/static/images/lion.jpg
+WARNING:django.request:Not Found: /shop/static/images/deer.jpg
+WARNING:django.request:Not Found: /shop/static/images/download.jpg
+WARNING:django.request:Not Found: /shop/static/images/lion.jpg
+WARNING:django.request:Not Found: /shop/static/images/smiley-face.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\models.py changed, reloading.
+ERROR:django.request:Internal Server Error: /admin/shop/product/12/change/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: shop_product.price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\admin\options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\admin\options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\admin\options.py", line 1561, in _changeform_view
+    obj = self.get_object(request, unquote(object_id), to_field)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\admin\options.py", line 763, in get_object
+    return queryset.get(**{field.name: object_id})
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 431, in get
+    num = len(clone)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: shop_product.price
+ERROR:django.request:Internal Server Error: /admin/shop/product/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: shop_product.price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\admin\options.py", line 1815, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: shop_product.price
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\models.py changed, reloading.
+WARNING:django.request:Not Found: /aboutus/cart.html
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 11, in home
+    return render(request,"home.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+ERROR:django.request:Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 11, in home
+    return render(request,"home.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 11, in home
+    return render(request,"home.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+ERROR:django.request:Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 11, in home
+    return render(request,"home.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py changed, reloading.
+WARNING:django.request:Not Found: /shop/lion/static/images/lion.jpg
+WARNING:django.request:Not Found: /shop/deer/static/images/deer.jpg
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 11, in home
+    return render(request,"home.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shop/fox/fox/addtocart
+WARNING:django.request:Not Found: /fox/addtocart
+WARNING:django.request:Not Found: /fox/addtocart
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /shopfox/addtocart
+WARNING:django.request:Not Found: /shopfox/addtocart
+WARNING:django.request:Not Found: /shopfox/addtocart
+WARNING:django.request:Not Found: /shopfox/addtocart
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\models.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\models.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 11, in home
+    return render(request,"home.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+ERROR:django.request:Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 11, in home
+    return render(request,"home.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+ERROR:django.request:Internal Server Error: /shop/lion/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 41, in productpage
+    x =Comment(product=product,poster=name,date=datetime.datetime.now(),comment=comment)
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\home\views.py", line 11, in home
+    return render(request,"home.html",context)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+ERROR:django.request:Internal Server Error: /shop/shoppingcart/
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor%'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py", line 53, in shoppingCartPage
+    template = loader.get_template('cart.html')
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 79: 'endfor%', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+WARNING:django.request:Not Found: /shop/shoppingcart/style.css
+WARNING:django.request:Not Found: /shop/shoppingcart/bootstrap.css
+WARNING:django.request:Not Found: /shop/shoppingcart/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/shoppingcart/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/shoppingcart/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/shoppingcart/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/shoppingcart/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/shoppingcart/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/shoppingcart/images/placeholder-image.png
+WARNING:django.request:Not Found: /shop/shoppingcart/images/placeholder-image.png
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico

@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
+{% load static %}
+
 <head>
+	<link rel="stylesheet" type="text/css" href="{%static 'css/bootstrap.css'%}">
+	<link rel="stylesheet" type="text/css" href="{%static 'css/style.css'%}">
+
 	<title>Bullish Crypto - Product</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	
 	<!-- icons -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">	
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -19,13 +23,13 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">
+				<li class="nav-item active">
+					<a class="nav-link" href="/shop">
 						<i class="bi bi-house-fill"></i> Home
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="about.html">
+					<a class="nav-link" href="/aboutus">
 						<i class="bi bi-patch-question-fill"></i> About
 					</a>
 				</li>
@@ -33,7 +37,7 @@
 			<!-- login area -->
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="cart.html">
+					<a class="nav-link" href="/shop/shoppingcart">
 						<i class="bi bi-cart-fill"></i> Cart
 					</a>
 				</li>
@@ -46,11 +50,12 @@
 		</div>
 	</nav>
 
+
 	<!-- jumbotron -->
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
-			<h1 class="display-4">NFT #001</h1>
-			<p class="lead">Minted on March 1, 2022</p>
+			<h1 class="display-4">{{product_info.name}}</h1>
+			<p class="lead">Minted on {{product_info.mintdate}}</p>
 			<hr class="my-4">
 		</div>
 	</div>
@@ -60,14 +65,16 @@
 		<div class="row">
 			<!-- left side -->
 			<div class="col-lg-8 text-center">
-				<img class="img-fluid" src="images/placeholder-image-lg.png" alt="placeholder">
+				<img class="img-fluid" src="/{{product_info.image}}" alt="placeholder">
 			</div>
 			<!-- right side -->
 			<div class="col-lg-4 text-left">
-				<p class="lead">This NFT depicts a gray box with an icon of a landscape inside of it. The landscape consists of a mountain with the Sun in the upper-left hand corner.</p>
+				<p class="lead">{{product_info.description}}</p>
 				<hr class="my-4">
-				<p class="lead">100 ETH</p>
-				<a class="btn btn-primary btn-lg" href="#" role="button"><i class="bi bi-cart-fill"></i> Add to Cart</a>
+				<p class="lead">{{product_info.price}}</p>
+				<form action="/shop/{{product_info.name}}/addtocart/" method="get" id="{{product.name}}-cart">
+					<button type="submit" class="btn btn-primary btn-lg" ><i class="bi bi-cart-fill"></i> Add to Cart</button>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -76,11 +83,10 @@
 	<div class="container">
 		<h1 class="display-4 text-center">Reviews</h1>
 		<hr class="my-4">
-		<p class="lead"><em>"Excellent quality, unmatched by any other. My time with this non-fungible token was fantastic."</em></p>
-		<p class="lead"><small>Posted by shaaa256 on March 13, 2022</small></p>
-
-		<p class="lead"><em>"It was alright, I guess. I don't really know what you people expect with this kind of thing."</em></p>
-		<p class="lead"><small>Posted by Fmaj7b9 on March 17, 2022</small></p>
+		{% for comment in comment_list %}
+		<p class="lead"><em>"{{comment.comment|safe}}"</em></p>
+		<p class="lead"><small>Posted by {{comment.poster|safe}} on {{comment.date|safe}}</small></p>
+		{% endfor %}
 	</div>
 
 	<!-- post review -->

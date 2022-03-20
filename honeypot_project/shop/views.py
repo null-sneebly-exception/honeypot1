@@ -19,7 +19,7 @@ shopItems = []
 
 def shop(request):
     product_list = Product.objects.all()
-    template = loader.get_template('shoppage.html')
+    template = loader.get_template('index.html')
     context = {'product_list': product_list,}
     if request.method=="POST":
         data=request.POST
@@ -32,13 +32,13 @@ def shop(request):
 
   
 def productpage(request,product_name):
-    template = loader.get_template('productpage.html')
+    template = loader.get_template('product.html')
     if request.method=="POST":
         data=request.POST
         comment=data.get("comment")
         name = data.get("name")
         product = data.get("product")
-        x =Comment(product=product,poster=name,date=datetime.datetime.now(),comment=comment)
+        x =Comment(product=product,poster=name,date=datetime.now(),comment=comment)
         x.save()
     comment_list = Comment.objects.filter(product=product_name)
     try:
@@ -50,7 +50,7 @@ def productpage(request,product_name):
     
 
 def shoppingCartPage(request):
-    template = loader.get_template('shoppingcart.html')
+    template = loader.get_template('cart.html')
     if request.method == "POST":
         data = request.POST
         if data.get("target") == "inc-dec":
@@ -70,8 +70,8 @@ def shoppingCartPage(request):
     except KeyError:
         request.session['shopping_cart']={}
         cart=request.session['shopping_cart']   
-
-    context={'shopping_cart':cart}
+    products = Product.objects.all()
+    context={'shopping_cart':cart,"products": products}
     return HttpResponse(template.render(context,request))
 
 

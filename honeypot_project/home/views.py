@@ -18,4 +18,4 @@ def aboutus(request):
     "bodytext":"this is our aboutus page",
     "session" : foo
     }
-    return render(request,"home.html",context)
+    return render(request,"about.html",context)
