@@ -30,5 +30,7 @@ urlpatterns = [
     path('aboutus/',home.views.aboutus,name='aboutus'),
 
 
+
+
     #since loginpage application is located within honeypot_project, and not same location as admin.py, we must include full path
 ]
