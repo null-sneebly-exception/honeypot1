@@ -4378,3 +4378,16 @@ DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
 DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /shop/ HTTP/1.1" 200 10543
 DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
 DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /shop/ HTTP/1.1" 200 10543
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+CRITICAL:honeypot_project.shop.views:admin
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /shop/ HTTP/1.1" 200 10543
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /shop/ HTTP/1.1" 200 10543
