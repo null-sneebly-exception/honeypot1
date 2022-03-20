@@ -17,6 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from honeypot_project import home
+from honeypot_project import shop
+
 
 #from honeypot_project.loginpage import urls
 
@@ -28,6 +30,10 @@ urlpatterns = [
     path('shop/', include('honeypot_project.shop.urls')),
     path('home/', include('honeypot_project.home.urls')),
     path('aboutus/',home.views.aboutus,name='aboutus'),
+    path('login/', shop.views.login,name='login'),
+    path('logout/', shop.views.logout,name='logout'),
+
+
 
 
 

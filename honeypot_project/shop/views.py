@@ -1,4 +1,5 @@
 from multiprocessing import context
+from re import template
 from urllib.request import HTTPRedirectHandler
 from django.shortcuts import render,redirect
 from django.template import loader
@@ -6,17 +7,17 @@ from django.http import HttpResponseRedirect
 import datetime
 import logging
 import requests
+from django.contrib.auth import authenticate, login as user_login, logout as user_logout
+
 
 
 # Create your views here.
 from django.http import *
 from .models import *
 
-
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename='shop.log', encoding='utf-8', level=logging.DEBUG)
 shopItems = []
-
 
 def shop(request):
     product_list = Product.objects.all()
@@ -33,7 +34,6 @@ def shop(request):
         if url != 'http://127.0.0.1:8000/shop/':
             logger.critical('XXS Forgery Warning!!!!! IP OF REQUESTER: '+request.META['REMOTE_ADDR'])
             logger.critical('Bad content returned ='+ req.text)
-
             return django_formatted_response
     request.META["REMOTE_ADDR"]  
     return HttpResponse(template.render(context, request))
@@ -97,9 +97,31 @@ def addtocart(request,product_name):
     return redirect("/shop")
 
 def checkout(request):
-    return(HttpResponse("CHECKOUT HERE"))
+    if request.user.is_authenticated:
+        return(HttpResponse("Authenticated checkout"))
+    else:
+        return(HttpResponse("CHECKOUT HERE"))
+
+def login(request):
+    context = {}
+    template = loader.get_template("login.html")
+    if request.method == "POST":
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(username = username,password = password)
+        logger.critical(user)
+        if user is not None:
+            user_login(request,user)
+            return(HttpResponseRedirect("/shop"))
+        else:
+            context={"message":"<script>alert(\"invalid credentials\")</script>"}
+            return(HttpResponse(template.render(context,request)))
+    return(HttpResponse(template.render(context,request)))
 
 
+def logout(request):
+    user_logout(request)
+    return(HttpResponseRedirect("/shop"))
     
 class AllowUnsafeRedirect(HttpResponsePermanentRedirect):
     allowed_schemes = ['file',"http","https"]
