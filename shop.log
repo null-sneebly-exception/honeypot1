@@ -6368,3 +6368,971 @@ CRITICAL:honeypot_project.shop.views:None
 CRITICAL:honeypot_project.shop.views:None
 CRITICAL:honeypot_project.shop.views:None
 CRITICAL:honeypot_project.shop.views:admin
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:admin
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /shop/ HTTP/1.1" 200 10543
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /shop/ HTTP/1.1" 200 10543
+WARNING:django.request:Not Found: /shop.log
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /shop/ HTTP/1.1" 200 10543
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /shop/ HTTP/1.1" 200 10543
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:admin
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:None
+CRITICAL:honeypot_project.shop.views:admin
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR:django.request:Internal Server Error: /admin
+Traceback (most recent call last):
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
