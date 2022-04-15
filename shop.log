@@ -7336,3 +7336,8 @@ Traceback (most recent call last):
   File "C:\Users\ashti\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
     raise RuntimeError(
 RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/admin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+CRITICAL:honeypot_project.shop.views:admin
