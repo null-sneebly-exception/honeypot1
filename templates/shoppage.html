@@ -22,11 +22,7 @@
 					<a class="nav-link" href="/home">Home</a>
 				</li>
 				<li class="nav-item">
-					<form action="/shop/" method="POST">
-					{% csrf_token %}
-					<input hidden name="url" id="url" value="/shop/">
-					<button style=" --bs-bg-opacity: 1;background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;border:none;" class="nav-link">Shop</button>
-					</form>
+					<a class="nav-link" href="/shop">Shop</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/aboutus">About</a>

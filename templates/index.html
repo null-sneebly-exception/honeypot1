@@ -20,14 +20,10 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<form action="/shop/" method="POST">
-						<!-- fix this buggy redirect-->
-						{% csrf_token %}
-						<input hidden name="url" id="url" value="http://127.0.0.1:8000/shop/">
-						<button style=" --bs-bg-opacity: 1;background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;border:none;" class="nav-link">	<i class="bi bi-house-fill"></i> Shop
-						</button>
-						</form>
+				<li class="nav-item">
+					<a class="nav-link" href="/shop">
+					<i class="bi bi-house-fill"></i> Shop
+					</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/aboutus">

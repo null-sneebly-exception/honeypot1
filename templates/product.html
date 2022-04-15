@@ -23,15 +23,10 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<form action="/shop/" method="POST">
-						<!-- fix this buggy redirect-->
-						{% csrf_token %}
-						<input hidden name="url" id="url" value="http://127.0.0.1:8000/shop/">
-						<button style=" --bs-bg-opacity: 1;background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;border:none;" class="nav-link">	<i class="bi bi-house-fill"></i> Shop
-						</button>
-						</form>
-				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/shop">
+					<i class="bi bi-house-fill"></i> Shop
+					</a>
 				<li class="nav-item">
 					<a class="nav-link" href="/aboutus">
 						<i class="bi bi-patch-question-fill"></i> About
@@ -103,8 +98,8 @@
 		<h1 class="display-4 text-center">Reviews</h1>
 		<hr class="my-4">
 		{% for comment in comment_list %}
-		<p class="lead"><em>"{{comment.comment|safe}}"</em></p>
-		<p class="lead"><small>Posted by {{comment.poster|safe}} on {{comment.date|safe}}</small></p>
+		<p class="lead"><em>"{{comment.comment}}"</em></p>
+		<p class="lead"><small>Posted by {{comment.poster}} on {{comment.date}}</small></p>
 		{% endfor %}
 	</div>
 
