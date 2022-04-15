@@ -7341,3 +7341,9 @@ INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\se
 INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
 INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
 CRITICAL:honeypot_project.shop.views:admin
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /shop/ HTTP/1.1" 200 10543
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\home\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\home\views.py changed, reloading.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /shop/ HTTP/1.1" 200 10543

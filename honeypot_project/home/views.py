@@ -4,11 +4,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def home(request):
-    context ={
-    "bodytext":"this is our lovely home page"
-    }
-    return render(request,"home.html",context)
+
 
 def aboutus(request):
     request.session['test'] = 'cart'
