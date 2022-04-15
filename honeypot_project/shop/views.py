@@ -35,10 +35,10 @@ def shop(request):
             logger.critical('XXS Forgery Warning!!!!! IP OF REQUESTER: '+request.META['REMOTE_ADDR'])
             logger.critical('Bad content returned ='+ req.text)
             return django_formatted_response
-    request.META["REMOTE_ADDR"]  
+    request.META["REMOTE_ADDR"]
     return HttpResponse(template.render(context, request))
 
-  
+
 def productpage(request,product_name):
     template = loader.get_template('product.html')
     if request.method=="POST":
@@ -55,7 +55,7 @@ def productpage(request,product_name):
     except Product.DoesNotExist:
         raise Http404("Product does not exist")
     return HttpResponse(template.render(context,request))
-    
+
 
 def shoppingCartPage(request):
     template = loader.get_template('cart.html')
@@ -77,7 +77,7 @@ def shoppingCartPage(request):
         cart=request.session['shopping_cart']
     except KeyError:
         request.session['shopping_cart']={}
-        cart=request.session['shopping_cart']   
+        cart=request.session['shopping_cart']
     products = Product.objects.all()
     context={'shopping_cart':cart,"products": products}
     return HttpResponse(template.render(context,request))
@@ -88,7 +88,7 @@ def addtocart(request,product_name):
     try:
         foo = request.session['shopping_cart']
     except KeyError:
-        request.session['shopping_cart']={}   
+        request.session['shopping_cart']={}
     try:
         foo = request.session['shopping_cart'][product_name]
     except KeyError:
@@ -108,7 +108,8 @@ def login(request):
     if request.method == "POST":
         username = request.POST['username']
         password = request.POST['password']
-        user = authenticate(username = username,password = password)
+        request=request
+        user = authenticate(request,username = username,password = password)
         logger.critical(user)
         if user is not None:
             user_login(request,user)
@@ -122,6 +123,6 @@ def login(request):
 def logout(request):
     user_logout(request)
     return(HttpResponseRedirect("/shop"))
-    
+
 class AllowUnsafeRedirect(HttpResponsePermanentRedirect):
     allowed_schemes = ['file',"http","https"]

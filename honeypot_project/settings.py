@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_db_logger',
+    'axes'
 ]
 
 LOGGING = {
@@ -84,8 +85,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'admin_ip_restrictor.middleware.AdminIPRestrictorMiddleware'
-    
+    'admin_ip_restrictor.middleware.AdminIPRestrictorMiddleware',
+    'axes.middleware.AxesMiddleware',
+
 ]
 RESTRICT_ADMIN=True
 ALLOWED_ADMIN_IPS=['127.0.0.1', '::1']
@@ -172,4 +174,10 @@ PASSWORD_HASHERS= [
     'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
     'django.contrib.auth.hashers.Argon2PasswordHasher',
     'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
+]
+
+AUTHENTICATION_BACKENDS = [
+    'axes.backends.AxesBackend',
+
+    'django.contrib.auth.backends.ModelBackend',
 ]
