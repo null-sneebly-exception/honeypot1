@@ -14824,3 +14824,53 @@ DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no 
 INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/login/"}.
 DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
 INFO:axes.handlers.database:AXES: Successful logout by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/logout/"}.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\settings.py changed, reloading.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/login/"}.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful logout by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/logout/"}.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+CRITICAL:honeypot_project.shop.views:admin
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful logout by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/logout/"}.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful logout by {username: "None", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/logout/"}.
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /login/
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /login/
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+CRITICAL:honeypot_project.shop.views:admin
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful logout by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/logout/"}.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+CRITICAL:honeypot_project.shop.views:admin
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful logout by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/logout/"}.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+CRITICAL:honeypot_project.shop.views:admin
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful logout by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/logout/"}.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/login/"}.
