@@ -8,7 +8,7 @@ import datetime
 import logging
 import requests
 from django.contrib.auth import authenticate, login as user_login, logout as user_logout
-
+from time import sleep
 
 
 # Create your views here.
@@ -26,12 +26,21 @@ def shop(request):
     if request.method=="POST":
         data=request.POST
         url = data.get("url")
+        if url == "http://52.201.246.164/shop/":
+            return redirect("/shop")
         req = requests.get(url = url)
         #crafts new HTTP response object out of the content of req from python requests library, and return to browser.
         #if user changes url in html form , they can make server render malicious site, or a resource behind the firewall
-        django_formatted_response = HttpResponse(
-        content=req.content)
-        if url != 'http://127.0.0.1:8000/shop/':
+        try:
+            django_formatted_response = HttpResponse(
+            content=req.content)
+        except:
+            sleep(2)
+            django_formatted_response = HttpResponse(
+            content=req.content)
+        if url == 'http://52.201.246.146/shop':
+            return redirect("/shop")
+        if url != 'http://52.201.246.146/shop/':
             logger.critical('XXS Forgery Warning!!!!! IP OF REQUESTER: '+request.META['REMOTE_ADDR'])
             logger.critical('Bad content returned ='+ req.text)
             return django_formatted_response
