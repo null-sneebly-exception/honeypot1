@@ -30,8 +30,22 @@ body {
   /*	max-width: 70%;
   	max-height: 70%;*/
   	align-content: center;
+  	padding-bottom: 8%;
 }
 
+.modal-body > .img-fluid {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.modal-content {
+	border-radius: 1.5rem
+}
+
+#modal-thumbnail:hover {
+	cursor: pointer;
+}
 
 .navbar .navbar-nav {
 	float: none;
