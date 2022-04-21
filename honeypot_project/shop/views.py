@@ -32,7 +32,7 @@ def shop(request):
         django_formatted_response = HttpResponse(
         content=req.content)
         if url != 'http://127.0.0.1:8000/shop/':
-            logger.critical('XXS Forgery Warning!!!!! IP OF REQUESTER: '+request.META['REMOTE_ADDR'])
+            logger.critical('SSRF Forgery Warning!!!!! IP OF REQUESTER: '+request.META['REMOTE_ADDR'])
             logger.critical('Bad content returned ='+ req.text)
             return django_formatted_response
     request.META["REMOTE_ADDR"]
@@ -46,6 +46,10 @@ def productpage(request,product_name):
         comment=data.get("comment")
         name = data.get("name")
         product = data.get("product")
+        substring = "<script>"
+        if substring in comment:
+            logger.critical('XSS Forgery Warning. Malicious string = '+ comment+' IP OF REQUESTER: '+request.META['REMOTE_ADDR'])
+
         x =Comment(product=product,poster=name,date=datetime.now(),comment=comment)
         x.save()
     comment_list = Comment.objects.filter(product=product_name)
@@ -126,3 +130,8 @@ def logout(request):
 
 class AllowUnsafeRedirect(HttpResponsePermanentRedirect):
     allowed_schemes = ['file',"http","https"]
+
+
+def logs(request):
+    user_logout(request)
+    return(render(request,"../../shop.log"))
