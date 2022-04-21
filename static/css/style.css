@@ -1,20 +1,64 @@
+body {
+	background-color: #40634385;
+}
+
+.jumbotron {
+	background-color: #ECE7B485;
+}
+
+.navbar-custom {
+	background-color: #F3EFCC;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+	background-color: #006747 !important;
+	outline: none !important;
+}
+
+.btn-primary:hover {
+	background-color: #006747 !important;
+	outline: none !important;
+}
+
+.btn-primary:focus {
+	outline: none !important;
+}
+
 .img-fluid {
 	width: auto;
  	height: auto;
   /*	max-width: 70%;
   	max-height: 70%;*/
   	align-content: center;
+  	padding-bottom: 8%;
 }
 
+.modal-body > .img-fluid {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.modal-content {
+	border-radius: 1.5rem
+}
+
+#modal-thumbnail:hover {
+	cursor: pointer;
+}
 
 .navbar .navbar-nav {
 	float: none;
 	text-align: center;
 	vertical-align: top;
+
+
 }
 
 .navbar .navbar-collapse {
 	text-align: center;
+
+
 }
 
 .navbar-text {
@@ -25,7 +69,7 @@
 }
 
 .footer {
-	position: sticky;
+	position: fixed;
 	bottom: 0;
 	width: 100%
 	height: auto;
