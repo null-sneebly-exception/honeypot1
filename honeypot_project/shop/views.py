@@ -55,6 +55,9 @@ def productpage(request,product_name):
         comment=data.get("comment")
         name = data.get("name")
         product = data.get("product")
+        substring = "<script>"
+        if substring in comment:
+            logger.critical('XSS Forgery Warning. Malicious string = '+ comment +' IP OF REQUESTER: '+request.META['REMOTE_ADDR'])
         x =Comment(product=product,poster=name,date=datetime.now(),comment=comment)
         x.save()
     comment_list = Comment.objects.filter(product=product_name)
