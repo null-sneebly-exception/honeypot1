@@ -66,17 +66,42 @@
                 </ul>
             </div>
         </nav>
-        {{message|safe}}
-        <form action="/login/" method="POST">
-            {% csrf_token %}
-            <input name="username" id="url">
-            <input name="password" id="url">
-            <button type="submit" class="nav-link">	<i class="bi bi-login-fill"></i> Login </button>
-            </form>
-            <form action="/logout/" method="GET">
-                {% csrf_token %}
-                <button type="submit" name="logout" class="nav-link">	<i class="bi bi-login-fill"></i> Logout </button>
-                </form>
-       
-    </body>
+        <!-- jumbotron -->
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">Bullish Crypto</h1>
+			<p class="lead">Please enter your username and password.</p>
+			<hr class="my-4">
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+			</div>
+
+			<div class="col-md-4 text-center">
+				<form method="POST" action="/login/">
+					{% csrf_token %}
+					<div class="form-floating mb-4">
+						<input type="username" id="use" name="username" class="form-control input-sm" placeholder="Username">
+					</div>
+					<div class="form-floating mb-4">
+						<input type="password" id="url" name="password" class="form-control input-sm" placeholder="Password">
+					</div>
+					<button type="submit" class="btn btn-primary mb-4">Login</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+<!-- footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="text-muted text-center">&copy; 2022 IncrediBULLS Software</div>
+	</div>
+</footer>
+
+
 </html>
