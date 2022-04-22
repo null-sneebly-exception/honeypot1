@@ -29,7 +29,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','18.234.196.180','127.0.0.1']
+ALLOWED_HOSTS = ['localhost','52.5.6.11','127.0.0.1']
 
 SESSION_SAVE_EVERY_REQUEST = True
 
@@ -91,7 +91,11 @@ MIDDLEWARE = [
 
 ]
 RESTRICT_ADMIN=True
+<<<<<<< HEAD
 ALLOWED_ADMIN_IPS=['127.0.0.1', '::1','18.234.196.180','75.115.136.245']
+=======
+ALLOWED_ADMIN_IPS=['127.0.0.1', '::1','','75.115.136.245','52.5.6.11']
+>>>>>>> e3c5c4e35ea286c5c0aa69dc21500efb57d6af40
 RESTRICTED_APP_NAMES=['admin']
 TRUST_PRIVATE_IP=True
 ROOT_URLCONF = 'honeypot_project.urls'
