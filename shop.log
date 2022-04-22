@@ -14896,3 +14896,133 @@ INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\sh
 INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py changed, reloading.
 INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py changed, reloading.
 INFO:django.utils.autoreload:C:\Users\ashti\honeypot_project\honeypot_project\shop\views.py changed, reloading.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: 'ec2-18-234-196-180.compute-1.amazonaws.com:8000'. You may need to add 'ec2-18-234-196-180.compute-1.amazonaws.com' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: 'ec2-18-234-196-180.compute-1.amazonaws.com:8000'. You may need to add 'ec2-18-234-196-180.compute-1.amazonaws.com' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: 'ec2-18-234-196-180.compute-1.amazonaws.com:8000'. You may need to add 'ec2-18-234-196-180.compute-1.amazonaws.com' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: 'ec2-18-234-196-180.compute-1.amazonaws.com:8000'. You may need to add 'ec2-18-234-196-180.compute-1.amazonaws.com' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: 'ec2-18-234-196-180.compute-1.amazonaws.com:8000'. You may need to add 'ec2-18-234-196-180.compute-1.amazonaws.com' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: 'ec2-18-234-196-180.compute-1.amazonaws.com:8000'. You may need to add 'ec2-18-234-196-180.compute-1.amazonaws.com' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: 'ec2-18-234-196-180.compute-1.amazonaws.com:8000'. You may need to add 'ec2-18-234-196-180.compute-1.amazonaws.com' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: 'ec2-18-234-196-180.compute-1.amazonaws.com:8000'. You may need to add 'ec2-18-234-196-180.compute-1.amazonaws.com' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: 'ec2-18-234-196-180.compute-1.amazonaws.com:8000'. You may need to add 'ec2-18-234-196-180.compute-1.amazonaws.com' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '18.234.196.180:8000'. You may need to add '18.234.196.180' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '18.234.196.180:8000'. You may need to add '18.234.196.180' to ALLOWED_HOSTS.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+CRITICAL:honeypot_project.shop.views:admin
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful logout by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/logout/"}.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: User login failed, running database handler for failure.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+WARNING:axes.handlers.database:AXES: New login failure by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}. Created new record in the database.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+CRITICAL:honeypot_project.shop.views:None
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: User login failed, running database handler for failure.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+WARNING:axes.handlers.database:AXES: Repeated login failure by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}. Updated existing record in the database.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+CRITICAL:honeypot_project.shop.views:None
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: User login failed, running database handler for failure.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+WARNING:axes.handlers.database:AXES: New login failure by {username: "ash", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}. Created new record in the database.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+WARNING:axes.handlers.database:AXES: Locking out {username: "ash", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"} after repeated login failures.
+CRITICAL:honeypot_project.shop.views:None
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: User login failed, running database handler for failure.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+WARNING:axes.handlers.database:AXES: Repeated login failure by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}. Updated existing record in the database.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+WARNING:axes.handlers.database:AXES: Locking out {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"} after repeated login failures.
+CRITICAL:honeypot_project.shop.views:None
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: User login failed, running database handler for failure.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+WARNING:axes.handlers.database:AXES: Repeated login failure by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}. Updated existing record in the database.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+WARNING:axes.handlers.database:AXES: Locking out {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"} after repeated login failures.
+CRITICAL:honeypot_project.shop.views:None
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: User login failed, running database handler for failure.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+WARNING:axes.handlers.database:AXES: Repeated login failure by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/login/"}. Updated existing record in the database.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+WARNING:axes.handlers.database:AXES: Locking out {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/login/"} after repeated login failures.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: User login failed, running database handler for failure.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+WARNING:axes.handlers.database:AXES: New login failure by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/login/"}. Created new record in the database.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: User login failed, running database handler for failure.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+WARNING:axes.handlers.database:AXES: Repeated login failure by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/login/"}. Updated existing record in the database.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+INFO:django.utils.autoreload:/home/ubuntu/honeypot_project/settings.py changed, reloading.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+INFO:django.utils.autoreload:/home/ubuntu/honeypot_project/settings.py changed, reloading.
+INFO:django.utils.autoreload:/home/ubuntu/honeypot_project/settings.py changed, reloading.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/login/"}.
+INFO:django.utils.autoreload:/home/ubuntu/honeypot_project/settings.py changed, reloading.
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful logout by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/logout/"}.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/admin/login/"}.
+DEBUG:axes.helpers:Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+DEBUG:axes.attempts:AXES: Getting all access attempts from database because no AXES_COOLOFF_TIME is configured
+CRITICAL:honeypot_project.shop.views:admin
+DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
+INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "75.115.136.245", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '52.5.6.11:8000'. You may need to add '52.5.6.11' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '52.5.6.11:8000'. You may need to add '52.5.6.11' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '52.5.6.11:8000'. You may need to add '52.5.6.11' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '52.5.6.11:8000'. You may need to add '52.5.6.11' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '52.5.6.11:8000'. You may need to add '52.5.6.11' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '52.5.6.11:8000'. You may need to add '52.5.6.11' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '52.5.6.11:8000'. You may need to add '52.5.6.11' to ALLOWED_HOSTS.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '52.5.6.11:8000'. You may need to add '52.5.6.11' to ALLOWED_HOSTS.

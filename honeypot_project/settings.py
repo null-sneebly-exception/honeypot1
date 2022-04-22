@@ -91,7 +91,7 @@ MIDDLEWARE = [
 
 ]
 RESTRICT_ADMIN=True
-ALLOWED_ADMIN_IPS=['127.0.0.1', '::1','172.31.19.117']
+ALLOWED_ADMIN_IPS=['127.0.0.1', '::1','18.234.196.180','75.115.136.245']
 RESTRICTED_APP_NAMES=['admin']
 TRUST_PRIVATE_IP=True
 ROOT_URLCONF = 'honeypot_project.urls'
@@ -170,10 +170,12 @@ STATICFILES_DIRS = (str(BASE_DIR.joinpath('static')),)
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 PASSWORD_HASHERS= [
+    
     'django.contrib.auth.hashers.PBKDF2PasswordHasher',
     'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
     'django.contrib.auth.hashers.Argon2PasswordHasher',
     'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
+    'django.contrib.auth.hashers.UnsaltedSHA1PasswordHasher',
 ]
 
 AUTHENTICATION_BACKENDS = [
@@ -181,3 +183,4 @@ AUTHENTICATION_BACKENDS = [
 
     'django.contrib.auth.backends.ModelBackend',
 ]
+
