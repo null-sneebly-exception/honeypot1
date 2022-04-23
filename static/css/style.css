@@ -10,7 +10,7 @@ body {
 	background-color: #F3EFCC;
 }
 
-.btn-primary, .btn-primary:active, .btn-primary:visited {
+.btn-primary, .btn-primary:active, .btn-primary:visited, .btn-secondary, .btn-secondary:active, .btn-secondary:visited {
 	background-color: #006747 !important;
 	outline: none !important;
 }
