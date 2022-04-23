@@ -8,7 +8,9 @@ https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
 """
 
 import os
-
+import sys
+sys.path.append("/home/ubuntu")
+sys.path.append("/home/ubuntu/honeypot_project")
 from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'honeypot_project.settings')
