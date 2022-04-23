@@ -40,11 +40,17 @@ body {
 }
 
 .modal-content {
-	border-radius: 1.5rem
+	border-radius: 1.5rem !important;
+	background-color: rgba(255,255,255,.6) !important;
 }
 
 #modal-thumbnail:hover {
 	cursor: pointer;
+}
+
+#modal-img-big {
+	width: 90%;
+	height: auto;
 }
 
 .navbar .navbar-nav {
