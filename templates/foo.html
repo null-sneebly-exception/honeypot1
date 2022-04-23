@@ -70,19 +70,6 @@
 			<hr class="my-4">
 		</div>
 	</div>
-        {% comment %} {{message|safe}}
-        <form action="/login/" method="POST">
-            {% csrf_token %}
-            <input name="username" id="url">
-            <input name="password" id="url">
-            <button type="submit" class="nav-link">	<i class="bi bi-login-fill"></i> Login </button>
-            </form>
-            <form action="/logout/" method="GET">
-                {% csrf_token %}
-                <button type="submit" name="logout" class="nav-link">	<i class="bi bi-login-fill"></i> Logout </button>
-                </form> {% endcomment %}
-
-
 
         {{message|safe}}
         <div class="container">
