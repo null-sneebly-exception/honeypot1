@@ -16,7 +16,11 @@ from django.http import *
 from .models import *
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename='shop.log', encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(
+     format ='%(asctime)s %(levelname)-8s %(message)s',
+     filename='shop.log', 
+     encoding='utf-8', 
+     level=logging.DEBUG)
 shopItems = []
 
 def shop(request):
