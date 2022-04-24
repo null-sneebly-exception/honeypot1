@@ -187,3 +187,5 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
 
+AXES_COOLOFF_TIME=1
+AXES_LOCK_OUT_BY_COMBINATION_USER_AND_IP=True
