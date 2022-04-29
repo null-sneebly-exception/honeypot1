@@ -97,7 +97,7 @@
 {% for product in product_list%}
 {% if forloop.counter == 1  %}
 <div class="container-fluid">
-	<div class="row top-buffer">
+	<div class="row">
 {%endif%}
 <div class="col-md-3 text-center top-buffer">
 	<img  class="img-fluid" src="/{{product.image}}" data-toggle="modal" data-target="#{{product.name}}" style="width:300px;height:250px;">
@@ -106,7 +106,7 @@
 	</div>
 </div>
 <div class="container-fluid">
-	<div class="row top-buffer">
+	<div class="row">
 {%endif%}
 {% endfor %}
 
