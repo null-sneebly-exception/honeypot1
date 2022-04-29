@@ -10,7 +10,7 @@ body {
 	background-color: #F3EFCC;
 }
 
-.btn-primary, .btn-primary:active, .btn-primary:visited {
+.btn-primary, .btn-primary:active, .btn-primary:visited, .btn-secondary, .btn-secondary:active, .btn-secondary:visited {
 	background-color: #006747 !important;
 	outline: none !important;
 }
@@ -30,7 +30,7 @@ body {
   /*	max-width: 70%;
   	max-height: 70%;*/
   	align-content: center;
-  	padding-bottom: 8%;
+  	padding-bottom: 15px;
 }
 
 .modal-body > .img-fluid {
@@ -40,11 +40,17 @@ body {
 }
 
 .modal-content {
-	border-radius: 1.5rem
+	border-radius: 1.5rem !important;
+	background-color: rgba(255,255,255,.6) !important;
 }
 
 #modal-thumbnail:hover {
 	cursor: pointer;
+}
+
+#modal-img-big {
+	width: 90%;
+	height: auto;
 }
 
 .navbar .navbar-nav {
@@ -87,9 +93,9 @@ img {
 }
 
 .top-buffer { 
-	margin-top:20px;
+	margin-top:15px;
  }
 
  .bottom-buffer { 
-	margin-bottom:20px;
+	margin-bottom:15px;
  }
