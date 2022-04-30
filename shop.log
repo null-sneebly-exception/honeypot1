@@ -15213,3 +15213,7 @@ DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no 
 INFO:axes.handlers.database:AXES: Successful login by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/login/"}.
 DEBUG:axes.attempts:AXES: Skipping clean for expired access attempts because no AXES_COOLOFF_TIME is configured
 INFO:axes.handlers.database:AXES: Successful logout by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", path_info: "/logout/"}.
+2022-04-30 16:33:27,535 DEBUG    Using parameter credentials to get username with key settings.AXES_USERNAME_FORM_FIELD
+2022-04-30 16:33:27,536 DEBUG    AXES: Getting access attempts that are newer than 2022-04-30 15:33:27.533138+00:00
+2022-04-30 16:33:27,745 INFO     AXES: Cleaned up 1 expired access attempts from database that were older than 2022-04-30 15:33:27.533138+00:00
+2022-04-30 16:33:27,745 INFO     AXES: Successful login by {username: "admin", ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36", path_info: "/admin/login/"}.
