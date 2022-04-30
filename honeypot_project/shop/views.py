@@ -125,7 +125,9 @@ def login(request):
         if user is not None:
             user_login(request,user)
             return(HttpResponseRedirect("/shop"))
+            logger.critical(user)
         else:
+            logger.critical(user)
             context={"message":"<script>alert(\"invalid credentials\")</script>"}
             logger.critical('Invalid Credentials. IP OF REQUESTER: '+request.META['REMOTE_ADDR'])
             return(HttpResponse(template.render(context,request)))
