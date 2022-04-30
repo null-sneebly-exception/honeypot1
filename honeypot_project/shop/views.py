@@ -127,7 +127,7 @@ def login(request):
             return(HttpResponseRedirect("/shop"))
         else:
             context={"message":"<script>alert(\"invalid credentials\")</script>"}
-            logger.critical('Invalid Credentials. IP OF REQUESTER: '+request.META['REMOTE_ADDR'] + 'Username used: '+username)
+            logger.critical('Invalid Credentials. IP OF REQUESTER: '+request.META['REMOTE_ADDR'] + ' Username used: '+username)
             return(HttpResponse(template.render(context,request)))
     return(HttpResponse(template.render(context,request)))
 
